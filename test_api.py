@@ -36,8 +36,6 @@ class Test_qualityPlatform:
         result = RequestsUtil().send_request(method, url, data)
         result = json.loads(result)
         logger.info('请求之后的结果:' + str(result))
-        allure.attach.file(r'D:\pycharm\PycharmProjects\22年学习python基础\test01.png',
-                           attachment_type=allure.attachment_type.PNG)  # allure引用图片，文件要引用file方法，访问目录记得带r
         assert result['success'] == test1case['validata']
 
     # @allure.story('case2')

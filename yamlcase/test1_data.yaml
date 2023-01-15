@@ -1,0 +1,26 @@
+-
+  name: test1接口数据1
+  request:
+    method: post
+    url: http://auto-web.sit.sf-express.com/tf/config/search
+    data:
+      type: USEFULURL_GZ
+  validata: 'true'
+
+-
+  name: test1接口数据2
+  request:
+    method: post
+    url: http://auto-web.sit.sf-express.com/tf/config/search
+    data:
+      type: USEFULUR
+  validata: 'true'
+
+-
+  name: test1接口数据3
+  request:
+    method: post
+    url: http://auto-web.sit.sf-express.com/tf/config/search
+    data:
+      type: U
+  validata: 'true'

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jan 14 16:01:20 CST 2023","Sat Jan 14 16:01:20 CST 2023","25","","pytest","","test_api.Test_qualityPlatform","","test1[test1case1]",""
+"passed","Sat Jan 14 16:01:20 CST 2023","Sat Jan 14 16:01:20 CST 2023","26","","pytest","","test_api.Test_qualityPlatform","","test1[test1case2]",""
+"passed","Sat Jan 14 16:01:20 CST 2023","Sat Jan 14 16:01:21 CST 2023","469","","pytest","","test_api.Test_qualityPlatform","","test1[test1case0]",""

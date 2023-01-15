@@ -1,0 +1,9 @@
+- name: $csv{name}
+  parameters:
+    name-type: data/get_data.csv
+  request:
+    method: post
+    url: http://auto-web.sit.sf-express.com/tf/config/search
+    data:
+      type: $csv{type}
+  validata: 'true'
